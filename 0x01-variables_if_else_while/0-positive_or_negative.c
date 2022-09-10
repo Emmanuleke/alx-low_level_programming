@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes here */
-/* 0-positive_or_negative.c */
+/**
+ *main - Entry point
+ *Description: 'this program prints the type of variable'
+ *Return: Always 0 (Success)
+ */
 int main(void)
 {
 int n;
