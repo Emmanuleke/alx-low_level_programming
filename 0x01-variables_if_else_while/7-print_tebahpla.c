@@ -11,8 +11,8 @@ int main(void)
 
 {
 
-char ch = 'a';
-for (ch = 'a'; ch <= 'z'; ch++)
+char ch = 'z';
+for (ch = 'z'; ch >= 'a'; ch--)
 putchar(ch);
 putchar('\n');
 return (0);
