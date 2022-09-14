@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print alphabet- function tho brint alpabet
  * Return: 0
