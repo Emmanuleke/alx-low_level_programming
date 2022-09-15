@@ -13,6 +13,7 @@ int hourreminder;
 while (hour < 23)
 {
 while (min < 59)
+{
 minreminder = min % 10;
 hourreminder = hour % 10;
 _putchar(hour / 10 + '0');
@@ -25,4 +26,5 @@ _putchar('\n');
 }
 hour++;
 min = 0;
+}
 }
