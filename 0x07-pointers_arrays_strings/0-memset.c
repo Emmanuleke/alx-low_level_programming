@@ -4,13 +4,13 @@
  * @s: contains the adress of b
  * @b: the variable to be replaced
  * @n: number of bytes to be replaced
- * return: always zero
+ * Return: always zero
  */
 char *_memset(char *s, char b, unsigned int n)
 {
 while (n)
 {
-s[n -1] = b;
+s[n - 1] = b;
 n--;
 }
 return (s);
