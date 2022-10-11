@@ -2,13 +2,13 @@
 #define DOG_H
 /**
  * main - the main function
- * struct dog: a structure within main
+ * struct dog - a structure within main
  * @name: first element
  * @age: contains variable for age
  * @owner: the owner
  */
 struct dog
-{                                                                                  
+{
 char *name;
 float age;
 char *owner;
