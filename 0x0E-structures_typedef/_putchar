@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+*_putchar - writes the charaacter
+*@c: character to be printed
+*
+*Return: 0 for succsses
+*/
+int _putchar(char c)
+{
+return (write(i, &c, i));
+}
